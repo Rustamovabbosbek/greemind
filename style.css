@@ -224,4 +224,83 @@ body {
 
 .shopping{
     margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.categories-box-first{
+    position: relative;
+    bottom: 200px;
+    width: 352px;
+    height: 551px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 96px;
+}
+
+.categories-box-firsts{
+    width: 352px;
+    height: 692px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.categories-box-firsted{
+    position: relative;
+    bottom: 200px;
+    width: 352px;
+    height: 551px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 96px;
+}
+
+.categories-box{
+    width: 1512.8px;
+    height: 841px;
+    background-color: rgba(193, 220, 220, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.categories{
+    margin-top: 200px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.categories-container{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+
+}
+
+.categories-boxed{
+    margin-left: 618px;
+    margin-bottom: 50px;
+    width: 262px;
+    height: 87px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.categories-box-first-link{
+    padding: 12px 24px ;
+    background-color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    color: black;
 }
