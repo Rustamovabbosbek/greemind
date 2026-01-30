@@ -71,8 +71,8 @@ body {
 }
 
 .header-right{
-    margin-right: 72px;
-    margin-top: 111px;
+    right: 72px;
+    top: 111px;
     position: relative;
 }
 
@@ -188,4 +188,40 @@ body {
 
 .starts-first-txt{
     color: rgba(30, 30, 30, 0.5);
+}
+
+.shopping-container{
+    height: 350px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shopping-second{
+    width: 1248px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.shopping-second-first{
+    width: 400px;
+    height: 213px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shopping-first{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shopping{
+    margin-top: 80px;
 }
