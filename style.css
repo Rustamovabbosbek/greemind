@@ -16,6 +16,8 @@ body {
     width: 100%;
 }
 
+/* navbar start */
+
 .navbar{
     margin-top: 50px;
     margin-bottom: 50px;
@@ -51,6 +53,10 @@ body {
     font-size: 25px;
 }
 
+/* navbar end */
+
+/* header start */
+
 .header-box{
     width: 1248px;
     height: 512px;
@@ -68,6 +74,7 @@ body {
     border-top-right-radius: 200px;
     border-bottom-left-radius: 200px;
     background-color: black;
+    margin-bottom: 110px;
 }
 
 .header-right{
@@ -190,6 +197,10 @@ body {
     color: rgba(30, 30, 30, 0.5);
 }
 
+/* header end */
+
+/* shopping start */
+
 .shopping-container{
     height: 350px;
     flex-direction: column;
@@ -226,6 +237,10 @@ body {
     margin-top: 80px;
     margin-bottom: 100px;
 }
+
+/* shopping end */
+
+/* categories start */
 
 .categories-box-first{
     position: relative;
@@ -304,3 +319,5 @@ body {
     text-decoration: none;
     color: black;
 }
+
+/* categories end */
